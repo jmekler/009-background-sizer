@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>2.009 - Background Resizing Tool</title>
+	<link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" />
+	<link rel="stylesheet" type="text/css" href="css/app.css" />
+</head>
+<body>
+	<div id="fullpage">
+		<div class="section background-sizer" src="img/background.jpg">
+  		<div class="controls">
+    		<h2>2.009 Background Resizing Tool</h2>
+    		<div class="button-set">
+      		<button>&larr;</button>
+      		<button>&uarr;</button>
+      		<button>&rarr;</button>
+      		<button>&darr;</button>
+      		Adjust position
+    		</div>
+    		
+    		<div class="button-set">
+      		<button>&plus;</button>
+      		<button>&minus;</button>
+      		Adjust scale
+    		</div>
+    		
+    		<div class="button-set">
+      		<button>[</button>
+      		<button>]</button>
+      		Adjust sensitivity
+    		</div>
+    		
+    		<p>Once you have the background positioned just right, use the css settings below to </p>
+    		<code>#[UNIQUE_ID] {</code>
+    		<code class="indent">background-image: url("<span id="url"></span>");</code>
+    		<code class="indent">background-repeat: no-repeat;</code>
+    		<code class="indent">background-size: <span id="scale"></span>%;</code>
+    		<code class="indent">background-position: <span id="pos-x"></span>px <span id="pos-y"></span>px;</code>  		
+    		<code>}</code>
+  		</div>
+		</div>
+	</div>
+
+	<script src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/scrolloverflow.js"></script>
+	<script type="text/javascript" src="js/jquery.fullPage.js"></script>
+	<script type="text/javascript" src="js/app.js"></script>
+	
+</body>
+</html>

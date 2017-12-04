@@ -1,0 +1,65 @@
+/* COLOR STYLES */
+.section{
+	background-size: cover;
+}
+
+
+.controls {
+  font-family: Helvetica, sans-serif;
+  font-size: 14px;
+  background: rgba(255, 255, 255, 0.75);
+  width: 400px;
+  padding: 50px;
+  margin: auto; 
+  border-radius: 25px; 
+}
+.controls .button-set {
+  padding-bottom: 0.5em;
+}
+
+.controls button {
+  height: 2.5em;
+  width: 2.5em;
+  border-radius: 5px;
+  pointer-events: none;
+}
+.controls h2 {
+  margin-top: 0;
+}
+
+.controls code {
+  display:block;
+}
+
+.controls code.indent {
+  padding-left: 2em;
+}
+
+.background {
+	background-image: url("../img/green.jpg");	
+}
+
+
+.black {
+	background-color: black;
+}
+
+.green {
+	background-image: url("../img/green.jpg");	
+}
+
+.red {
+	background-image: url("../img/red.jpg");	
+}
+
+.yellow {
+	background-image: url("../img/yellow.jpg");	
+}
+
+
+/* WEBCAM */
+.webcam video {
+	transform: scaleX(-1); // flip video
+	min-width: 100%;
+	min-height: 100%;
+}
